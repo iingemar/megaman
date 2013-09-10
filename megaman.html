@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="Input.js"></script>
+		<script type="text/javascript" src="Level.js"></script>                        
+		<script type="text/javascript" src="Player.js"></script>                
+        <script type="text/javascript" src="Main.js"></script>        
+        <style>
+            #canvas{
+                float:left;
+                border:1px solid black;
+                margin:10px;
+            }
+            #infobox{
+                float:left;
+                margin:10px;
+            }
+			#stage{
+				border:1px solid #000;
+			}
+			.hidden{
+				display:none;
+			}
+        </style>
+    </head>
+    <body>
+        <div>        
+            <canvas id="canvas" width="640" height="480"></canvas>
+            <div id="infobox">
+				<canvas id="stage" width="40" height="30"></canvas>
+				<img class="hidden" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeBAMAAACs80HuAAAABGdBTUEAALGPC/xhBQAAABJQTFRFAAAAAP8hAP///2oAgICA////AOKjZgAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuODc7gF0AAAB1SURBVCjPtczRCUIxFIPhgI7gBk4gZ4FS/rNBuv8qPvS26u0VRDFv+QgR0PYRkCZHNxvyFj0wVwQm0mxnx+wItH5sIHOgj5GJDOSBoCLpvMcaEZeJfIr+GYukBWtEvKBZEY5R0orXiC+wSEiSTk9Y47aN/oZ3FKKTI8u2odkAAAAASUVORK5CYII%3D" alt=""  id="image"/>
+                <pre><span id="output"></span></pre>
+				<pre><span id="pixelOutput"></span></pre>
+            <div>
+        </div>
+    </body>
+</html>
